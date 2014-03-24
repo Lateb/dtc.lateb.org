@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+  <meta charset="utf-8">
+  <title>Lateb DTC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Le styles -->
+  <style type="text/css">
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+  </style>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">LATEB DTC 2014</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/FAQ">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+
+  <div class="container">
+    <h1>DTC</h1>
+    <p>
+      Le week end DTC LATEB, signifiant D&eacute;couverte, Traditions et
+      Culture va avoir lieux cette ann&eacute;e.  C'est la troisi&egrave;me
+      &eacute;dition de cet &eacute;venement, le premier ayant eu lieu en
+      <a>2010</a>, &agrave; l'initiative de Julien ``Molloss'' Adolphe et
+      Mickael ``Chabal'' Thumerel, le second en <a>2013</a> &agrave;
+      l'initiative de Tristan Le Guern et Antoine Marandon.
+    </p>
+    <p>
+      <strong>
+        Ce troisi&egrave;me rendez-vous aura lieu du Vendredi 16 Mai au
+        Dimanche 18 Mai.
+      </strong>
+    </p>
+    <p>
+      L'inscription est de 55&euro; par personne.
+    </p>
+    <form class="form-horizontal" role="form" method="post" name="input" action="/bite">
+      <div class="form-group">
+        <label for="inputName">Pr&eacute;nom et nom</label>
+        <input class="form-control" type="text" name="name" id="inputName" placeholder="Pr&eacute;nom Nom" required>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input class="form-control" type="email" name="email" id="inputEmail" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <label for="inputLogin">Login</label>
+        <input class="form-control" type="text" name="login" id="inputLogin" placeholder="Login (sauf externes)">
+      </div>
+      <div class="form-group">
+        <label for="inputAge">Age</label>
+        <input class="form-control" type="number" name="age" id="inputAge" placeholder="Age" required>
+      </div>
+      <div class="form-group">
+        <label for="inputSize">Taille du t-shirt</label>
+        <select class="form-control" id="inputSize" name="size">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">S'inscrire</button>
+      </div>
+    </form>
+
+    <hr>
+
+    <footer>
+      <p>&copy; LATEB 2014 - Beerware license :)</p>
+    </footer>
+
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
