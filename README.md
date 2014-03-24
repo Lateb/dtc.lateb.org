@@ -4,7 +4,7 @@ INSTALLATION
 Images
 ------
 
-Add two images names "img/error.jpg" and "img/success.jpg".
+Add two images named "img/error.jpg" and "img/success.jpg".
 
 Nginx
 -----
